@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <meta charset="utf-8">
+    <title>lab8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+
+    <div class="header">
+        <div class="header__logo">
+            <a class="header__name-logo-link" href="/">
+                <img class="header__logo-img" src="img/header/logo.png">
+            </a>
+        <a class="header__name" href="">RENTACAR</a>
+            <a class="header__name-logo-link header__name-logo-link_none" href="/">
+                <img class="header__logo-img" src="img/header/logo.png">
+            </a>
+        </div>
+        <nav class="header__navigation">
+            <ul class="header__navigation-links">
+                <li class="header__navigation-link"><a class="header__navigation-link-none-decor" href="#">Автомобили</a></li>
+                <li class="header__navigation-link"><a class="header__navigation-link-none-decor" href="#">О компании</a></li>
+                <li class="header__navigation-link"><a class="header__navigation-link-none-decor" href="#">Условия</a></li>
+                <li class="header__navigation-link"><a class="header__navigation-link-none-decor" href="#">Услуги</a></li>
+                <li class="header__navigation-link"><a class="header__navigation-link-none-decor" href="#">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__social">
+            <a class="header__social-icon" href="https://www.instagram.com/?hl=ru">
+                <img class="header__social-icon-img" src="img/header/inst.png" alt="">
+            </a>
+            <a class="header__social-icon" href="">
+                <img class="header__social-icon-img" src="img/header/youtube.png" alt="">
+            </a>
+        </div>
+
+        <div class="header__phone">
+            <span class="header__number-phone">
+            +7 (978) 133-85-64
+            </span>
+            <span class="header__time">
+                Ежедневно с 10:00 до 22:00
+            </span>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <img class="icon" src="img/main/wa.png" alt="">
+    <div class="top">
+        <img class="top__picture" src="img/main/ferrari.jpg" alt="">
+        <div class="top__title">
+            <span class="top__title-big">Аренда Ferrari в Крыму!</span>
+            <span class="top__title-small">Незабываемые мощь и скорость!</span>
+        </div>
+        <div class="top__radio-buttons">
+            <input type="radio" name="elem" checked>
+            <input type="radio" name="elem">
+            <input type="radio" name="elem">
+            <input type="radio" name="elem">
+        </div>
+    </div>
+        <div class="under-top-wrapper">
+            <div class="under-top-description">
+                <div class="under-top-description-photo">
+                    <img src="img/main/porshe.jpg" alt="" class="under-top-description-photo-img">
+                </div>
+                <div class="under-top-description-text">
+                    <p>Наша компания - идеальный выбор для аренды автомобиля в Крыму</p>
+                    <p>Мы предлагаем вам арендовать спортивные и премиальные автомобили в Крыму.
+                        За рулём этих авто вы не только почувствуете неповторимый азарт и прилив адреналина, но и удивите прохожих и других водителей.
+                        Именно поэтому мы делаем главный упор на услугу аренды без водителя – так вы сможете оценить динамику, управляемость и ощущения от каждой конкретной модели.</p>
+
+                    <p>Мы заботимся о каждом клиенте и стараемся предложить максимальный выбор. Автопарк подбирается вручную и поддерживается в идеальном состоянии.
+                        На данный момент мы рады предложить вам спорткары марок Lamborghini, Porsche, Ferrari, McLaren, Nissan,
+                        премиальные седаны и внедорожники от BMW, Mercedes-Benz, Bentley, Rolls-Royce, Audi и других автопроизводителей.
+                        Если же вами правит неудержимый гоночный дух, обратите внимание на Dodge, Chevrolet или Ford.</p>
+
+                    <p>И это далеко не все - мы регулярно пополняем свой автопарк новыми роскошными и необычными автомобилями.</p>
+
+                </div>
+            </div>
+        </div>
+
+    <div class="middle">
+        <div class="middle__top">
+            <div class="middle__title">Авто в аренду</div>
+            <div class="middle__stamps">
+                <ul class="middle__stamps-ul">
+                    <input id="all" name="q" type="radio" checked>
+                    <label for="all"><li class="middle__stamps-li">Все</li></label>
+                    <input id="ferrari" name="q" type="radio">
+                    <label for="ferrari"><li class="middle__stamps-li">Ferrari</li></label>
+                    <input id="lamborghini" name="q" type="radio">
+                    <label for="lamborghini"><li class="middle__stamps-li">Lamborghini</li></label>
+                    <input id="mclaren" name="q" type="radio">
+                    <label for="mclaren"><li class="middle__stamps-li">McLaren</li></label>
+                    <input id="rolls-royce" name="q" type="radio">
+                    <label for="rolls-royce"><li class="middle__stamps-li">Rolls</li></label>
+                    <input id="bentley" name="q" type="radio">
+                    <label for="bentley"><li class="middle__stamps-li">Bentley</li></label>
+                    <input id="porshe" name="q" type="radio">
+                    <label for="porshe"><li class="middle__stamps-li">Porshe</li></label>
+                    <input id="audi" name="q" type="radio">
+                    <label for="audi"><li class="middle__stamps-li">Audi</li></label>
+                    <input id="mercedes-benz" name="q" type="radio">
+                    <label for="mercedes-benz"><li class="middle__stamps-li">Mercedes</li></label>
+                    <input id="bmw" name="q" type="radio">
+                    <label for="bmw"><li class="middle__stamps-li">BMW</li></label>
+                    <input id="nissan" name="q" type="radio">
+                    <label for="nissan"><li class="middle__stamps-li">Nissan</li></label>
+                    <input id="dodge" name="q" type="radio">
+                    <label for="dodge"><li class="middle__stamps-li">Dodge</li></label>
+                    <input id="ford" name="q" type="radio">
+                    <label for="ford"><li class="middle__stamps-li">Ford</li></label>
+                </ul>
+            </div>
+        </div>
+        <div class="middle__middle">
+            <div class="middle__card">
+                <div class="middle__img">
+                    <a href="arenda_ferrari.html">
+                    <img src="img/main/ferrari.jpg" alt="">
+                    </a>
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Ferrari F8 Spider</span>
+                    <span class="speed">340 км/ч</span>
+                    <span class="price">135 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <a href="arenda_ferrari.html">
+                        <img src="img/main/f12.jpg" alt="">
+                    </a>
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Ferrari F12 Berlinetta</span>
+                    <span class="speed">340 км/ч</span>
+                    <span class="price">100 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <a href="arenda_ferrari.html">
+                        <img src="img/main/california.jpg" alt="">
+                    </a>
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Ferrari California T</span>
+                    <span class="speed">315 км/ч</span>
+                    <span class="price">59 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/huracan.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Lamborghini Huracan Evo</span>
+                    <span class="speed">305 км/ч</span>
+                    <span class="price">100 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/urus.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Lamborghini Urus</span>
+                    <span class="speed">305 км/ч</span>
+                    <span class="price">75 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/720s.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">McLaren 650S</span>
+                    <span class="speed">330 км/ч</span>
+                    <span class="price">85 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/570s.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">McLaren 570S</span>
+                    <span class="speed">328 км/ч</span>
+                    <span class="price">85 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/rr.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Rolls-Royce Dawn</span>
+                    <span class="speed">250 км/ч</span>
+                    <span class="price">100 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/bentley.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Bentley Continental GT</span>
+                    <span class="speed">333 км/ч</span>
+                    <span class="price">65 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/911.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Porsche 911 Turbo (992)</span>
+                    <span class="speed">320 км/ч</span>
+                    <span class="price">60 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/911_carera.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Porsche 911 Carrera 4S 992</span>
+                    <span class="speed">306 км/ч</span>
+                    <span class="price">50 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/taycan.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Porsche Taycan Turbo</span>
+                    <span class="speed">260 км/ч</span>
+                    <span class="price">55 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/audi.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Audi R8</span>
+                    <span class="speed">330 км/ч</span>
+                    <span class="price">55 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/g63.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Mercedes G63 AMG</span>
+                    <span class="speed">220 км/ч</span>
+                    <span class="price">65 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/S560.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Mercedes S 560</span>
+                    <span class="speed">250 км/ч</span>
+                    <span class="price">26 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/420.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">BMW 420 Cabriolet</span>
+                    <span class="speed">250 км/ч</span>
+                    <span class="price">17 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/nissan.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Nissan GTR</span>
+                    <span class="speed">340 км/ч</span>
+                    <span class="price">40 000 ₽/сут.</span>
+                </div>
+            </div>
+
+            <div class="middle__card">
+                <div class="middle__img">
+                    <img src="img/main/ford.jpg" alt="">
+                </div>
+                <div class="middle__card-info">
+                    <span class="model">Ford Mustang GT 5.0</span>
+                    <span class="speed">281 км/ч</span>
+                    <span class="price">25 000 ₽/сут.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle__videos">
+            <div class="middle__wrapper-videos">
+            <span class="middle__video-title">Видео о наших авто</span>
+            <iframe src="https://www.youtube.com/embed/fKNdoxRld34" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+
+        <div class="middle__bottom">
+            <div class="middle__bottom-wrapper">
+                <span class="middle__bottom-title">
+                    Услуги аренды авто в Крыму
+                </span>
+                <div class="middle__bottom-content">
+                    <div class="middle__bottom-card">
+                        <img src="img/main/urus.png" alt="" class="middle__bottom-img">
+                        <div class="middle__bottom-text">
+                            <span class="middle__bottom-card-title">Аренда премиальных и спортивных авто в Крыму</span>
+                            <span class="middle__bottom-card-text">Эти лошадки заставят вашу кровь закипеть и заразят вас своими яростью и азартом!
+                                Любое время пронесется как яркий миг за рулём этих легендарных спорткаров!</span>
+                        </div>
+                    </div>
+                    <div class="middle__bottom-card">
+                        <img src="img/main/5er.jpg" alt="" class="middle__bottom-img">
+                        <div class="middle__bottom-text">
+                            <span class="middle__bottom-card-title">Аренда авто бизнес класса</span>
+                            <span class="middle__bottom-card-text">Аренда авто бизнес класса в Крыму – приоритетное направление нашей деятельности.
+                                По желанию клиенту мы предоставляем возможность брать на прокат транспорт как с водителем, так и без него.
+                                В автопарке большой выбор люксовых машин — PORSCHE Panamera, BMW 520d, Мерседес S, E и G класса и пр.
+                                У нас представлены только лучшие автомобили в идеальном состоянии и отличной комплектации</span>
+                        </div>
+                    </div>
+                    <div class="middle__bottom-card">
+                        <img src="img/main/r8.jpg" alt="" class="middle__bottom-img">
+                        <div class="middle__bottom-text">
+                            <span class="middle__bottom-card-title">Аренда кабриолетов в Крыму</span>
+                            <span class="middle__bottom-card-text">Мы предоставляем спортивные кабриолеты в идеальном состоянии и отличной комплектации.
+                                Так как машина предоставляется без водителя, вы сами решаете, когда закончится аренда, куда вы поедете и
+                                где остановитесь, чтобы отдохнуть.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="bottom-button">Все услуги</button>
+
+</main>
+<footer>
+    <div class="footer__wrapper">
+        <div class="footer__column">
+            <span class="footer__column-first-line">Условия</span>
+            <br>
+            <span class="footer__text">Тарифы на прокат авто RENTACAR в Крыму</span>
+            <span class="footer__text">Как арендовать</span>
+            <span class="footer__text">Условия оплаты</span>
+            <br>
+            <span class="footer__text">© 2020-2022 Прокат авто RENTACAR</span>
+        </div>
+
+        <div class="footer__column">
+            <span class="footer__column-first-line">Салон в Крыму</span>
+            <br>
+            <span class="footer__text">297570, Симферополь, Севастопольское шоссе ТЦ "Крым"</span>
+            <span class="footer__text">+7 (978) 133-85-64</span>
+            <br>
+            <span class="footer__text">rentacar@mail.ru</span>
+        </div>
+
+        <div class="footer__column">
+            <img src="img/footer/logo.svg" alt="" class="footer__logo">
+        </div>
+
+        <div class="footer__column">
+            <span class="footer__column-first-line">+7 (978) 133-85-64</span>
+            <span class="footer__text">Ежедневно с 10:00 до 22:00</span>
+
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
